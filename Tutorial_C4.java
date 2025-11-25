@@ -11,7 +11,7 @@ public class Tutorial_C4
     private int x;
 
     /**
-     * Constructor for objects of class Tutorial_C4
+     * Construct for objects of class Tutorial_C4
      */
     public Tutorial_C4()
     {
