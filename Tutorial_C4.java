@@ -7,27 +7,20 @@
  */
 public class Tutorial_C4
 {
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Construct for objects of class Tutorial_C4
-     */
     public Tutorial_C4()
     {
         // initialise instance variables
-        x = 0;
+        int num =10;
+        if(num > 0){
+            System.out.println("This is Positive.");
+        }
+        else if(num == 0){
+            System.out.println("This is Zero");
+        }
+        else{
+            System.out.println("This is Negative");
+        }
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
 }
