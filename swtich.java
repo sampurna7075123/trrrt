@@ -14,7 +14,7 @@ public class swtich
         char c = sc.next().charAt(0);
         float sp = 0;
 
-        switch(c){
+        switch(Character.toUpperCase(c)){
             case 'A': sp = mp - (mp*0.60f); 
             break;
             case 'B': sp = mp - (mp*0.40f); 
